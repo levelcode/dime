@@ -1,0 +1,109 @@
+<div id="banner-slider-demo-5">    
+    <div class="item">
+            <img src="{{media url="wysiwyg/banner1.jpg"}}" alt="" />
+    </div>
+    <div class="item">
+            <img src="{{media url="wysiwyg/banner2.jpg"}}" alt="" />
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(function($){
+        $("#banner-slider-demo-5").owlCarousel({autoPlay:true,lazyLoad:true,stopOnHover: true,pagination: false, autoPlay: true,navigation: true,navigationText:["<i class='icon-chevron-left'></i>","<i class='icon-chevron-right'></i>"],slideSpeed : 500,paginationSpeed : 500,singleItem:true,transitionStyle : "fade"});
+    });
+</script>
+<div class="homepage-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <i class="icon-truck" style="font-size:36px;"></i><div class="text-area"><h3>FREE SHIPPING & RETURN</h3><p>Free shipping on all orders over $99.</p></div>
+            </div>
+            <div class="col-md-4">
+                <i class="icon-dollar"></i><div class="text-area"><h3>MONEY BACK GUARANTEE</h3><p>100% money back guarantee.</p></div>
+            </div>
+            <div class="col-md-4">
+                <i class="icon-lifebuoy" style="font-size:32px;"></i><div class="text-area"><h3>ONLINE SUPPORT 24/7</h3><p>Lorem ipsum dolor sit amet.</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding-top: 35px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="filter-title"><span class="content"><strong>Nuevos Productos</strong></span></h2>
+                <div id="featured_product" class="owl-top-narrow">
+                    {{widget type="catalog/product_widget_new" display_type="all_products" products_count="10" template="catalog/product/widget/new/content/new_list.phtml"}}
+                </div>
+                <script type="text/javascript">
+                    jQuery(function($){
+                        $("#featured_product .products-list").owlCarousel({lazyLoad: true,    itemsCustom: [ [0, 1], [320, 1], [480, 2], [768, 3], [992, 4], [1280, 5] ],    responsiveRefreshRate: 50,    slideSpeed: 200,    paginationSpeed: 500,    scrollPerPage: false,    stopOnHover: true,    rewindNav: true,    rewindSpeed: 600,    pagination: false,    navigation: true,    autoPlay: true,    navigationText:["<i class='icon-left-open'></i>","<i class='icon-right-open'></i>"]});
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding-top: 20px;" class="custom-support">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="icon-star" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Customer Support</h2>
+                    <em>YOU WON'T BE ALONE</em>
+                    <p>We really care about you and your website as much as you do. Purchasing Porto or any other theme from us you get 100% free support.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <i class="icon-reply" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Fully Customizable</h2>
+                    <em>TONS OF OPTIONS</em>
+                    <p>With Porto you can customize the layout, colors and styles within only a few minutes. Start creating an amazing website right now!</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <i class="icon-paper-plane" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Powerful Admin</h2>
+                    <em>MADE TO HELP YOU</em>
+                    <p>Porto has very powerful admin features to help customer to build their own shop in minutes without any special skills in web development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-wrapper ">
+    <div class="overlay overlay-color" style="background-color: #000000; opacity: 0.75; filter: alpha(opacity=75);"></div>
+    <div class="parallax" data-stellar-background-ratio="0.5" style="background-image: url({{media url="wysiwyg/banner1.jpg"}});">
+        <div class="parallax-slider" style="position: relative; z-index: 3;">
+            <div class="container">
+                <div id="parallax-slider-demo-5" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(function($){
+                    $("#parallax-slider-demo-5").owlCarousel({navigation : false,slideSpeed : 300,paginationSpeed : 400,    stopOnHover: true,autoPlay: true,singleItem:true});
+                });
+            </script>
+        </div>
+    </div>
+</div>
