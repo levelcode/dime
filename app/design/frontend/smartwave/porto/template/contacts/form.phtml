@@ -16,13 +16,13 @@
 <div class="row">
     <div class="col-sm-8">
 <form action="<?php echo $this->getFormAction(); ?>" id="contactForm" method="post">
-    <h2 class="legend"><?php echo Mage::helper('contacts')->__('Leave') ?> <?php echo Mage::helper('contacts')->__('a') ?> <b><?php echo Mage::helper('contacts')->__('Message') ?></b></h2>
+    <h2 class="legend"><?php echo Mage::helper('contacts')->__('Contacto') ?> <?php echo Mage::helper('contacts')->__('') ?> <b><?php echo Mage::helper('contacts')->__('Directo') ?></b></h2>
     <div class="row">
         <ul class="form-list col-sm-6">
             <li>
-                <label for="name" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Name') ?></label>
+                <label for="name" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Nombre') ?></label>
                 <div class="input-box">
-                    <input name="name" id="name" title="<?php echo Mage::helper('contacts')->__('Name') ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
+                    <input name="name" id="name" title="<?php echo Mage::helper('contacts')->__('Nombre') ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
                 </div>
             </li>
             <li>
@@ -32,22 +32,22 @@
                 </div>
             </li>
             <li>
-                <label for="telephone"><?php echo Mage::helper('contacts')->__('Telephone') ?></label>
+                <label for="telephone"><?php echo Mage::helper('contacts')->__('Teléfono') ?></label>
                 <div class="input-box">
-                    <input name="telephone" id="telephone" title="<?php echo Mage::helper('contacts')->__('Telephone') ?>" value="" class="input-text" type="text" />
+                    <input name="telephone" id="telephone" title="<?php echo Mage::helper('contacts')->__('Teléfono') ?>" value="" class="input-text" type="text" />
                 </div>
             </li>
         </ul>
         <ul class="form-list col-sm-6">
             <li>
-                <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Comment') ?></label>
+                <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Comentario') ?></label>
                 <div class="input-box input-textarea">
-                    <textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" cols="5" rows="3" placeholder="<?php echo Mage::helper('contacts')->__('Comment') ?>"></textarea>
+                    <textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comentario') ?>" class="required-entry input-text" cols="5" rows="3" placeholder="<?php echo Mage::helper('contacts')->__('Comentario') ?>"></textarea>
                 </div>
             </li>
             <li>
                 <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
-                <button type="submit" title="<?php echo Mage::helper('contacts')->__('Submit') ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('Submit') ?></span></span></button>
+                <button type="submit" title="<?php echo Mage::helper('contacts')->__('Enviar') ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('Enviar') ?></span></span></button>
             </li>
         </ul>
     </div>
@@ -58,10 +58,5 @@
 //]]>
 </script>
     </div>
-    <div class="col-sm-4 contact-info">
-        <h2 class="legend"><?php echo Mage::helper('contacts')->__('Contact') ?> <b><?php echo Mage::helper('contacts')->__('Details') ?></b></h2>
-        <?php
-            echo $_infoblock;
-        ?>
-    </div>
+    
 </div>

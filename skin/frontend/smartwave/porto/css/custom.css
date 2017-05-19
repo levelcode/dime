@@ -91,10 +91,19 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
   2. About
   3. Contact
 */
+body #at4-share,
+body .header .form-search #cat,
+body .cart .cart-collaterals h2 {
+  display: none;
+}
 
+//forms
+body .form-list .field {
+  margin: 0 .5em;
+}
 
 .widget-title {
-	display: none;
+  display: none;
 }
 
 .no-gutter > [class*='col-'] {
@@ -102,6 +111,9 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
     padding-left:0;
 }
 
+.cms-index-index .main-container {
+  min-height: inherit;
+}
 
 /*tabs*/
 
@@ -125,10 +137,10 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
     }
 
     .nav.nav-tabs li a span{
-    	font-size: 1.4em;
-    	display: inline-block;
-    	vertical-align: top;
-    	margin: 0 .3em;
+      font-size: 1.4em;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 .3em;
     }
 
     .nav.nav-tabs li.active a{
@@ -137,78 +149,131 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
       border: none;
     }
 
+ul.menu > li.logo-sticky {
+  display: none;
+}
+
+.sticky-header ul.menu {
+  padding-left: 125px;
+}
+
+  .sticky-header ul.menu > li.logo-sticky {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    max-width: 89px;
+  }
 
 /*Bands*/
 
 .band {
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
-	.band .txt {
-		padding: 3em
-	}
+  .band .txt {
+    padding: 3em
+  }
 
-	.arrancadores h2,
-	.band h2{
-		font-size: 16px;
-		line-height: 1;
-		margin: 0;
-	}
+  .arrancadores h2,
+  .band h2{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+  }
 
-	 .arrancadores h3,
-	 .band h3{
-		font-size: 28px;
-		line-height: 1;
-	 }
+   .arrancadores h3,
+   .band h3{
+    font-size: 28px;
+    line-height: 1;
+   }
 
-	.band .thumb {
-		overflow: hidden;
-		max-height: 500px;
-	}
+  .band .thumb {
+    overflow: hidden;
+    max-height: 500px;
+  }
 
-	.band .thumb img{
-		height: 100%;
-		width: auto;
-	}
-	
-	.band:nth-child(odd){
-		background-color:#2b3c6c;
-		color: white;
-	}
-		.band:nth-child(odd) h2{
-			color: white;
-		}
+  .band .thumb img{
+    height: 100%;
+    width: auto;
+  }
+  
+  .band:nth-child(odd){
+    background-color:#2b3c6c;
+    color: white;
+  }
+    .band:nth-child(odd) h2{
+      color: white;
+    }
 
-		 .band:nth-child(odd) h3{
-		 	color: white;
-		 }
+     .band:nth-child(odd) h3{
+      color: white;
+     }
 
 /* Grid products*/
 
 .widget-products .products-list {
-	border-bottom: 1px solid #e2e2e2;
-	padding: 2em 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 2em 0;
 }
 
 .widget-products .products-list > li{
-	float: none;
-	display: inline-block;
-	list-style: none;
-	width: 22%;
-	text-align: center;
-	border: 1px solid #f2f2f2;
-	margin: 1em;
+  float: none;
+  display: inline-block;
+  list-style: none;
+  width: 22%;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  margin: 1em;
 }
 
-	.widget-products .products-grid > li .product-image {
-		margin: 1em auto;
-	}
+  .widget-products .products-grid > li .product-image {
+    margin: 1em auto;
+  }
 
-		.widget-products .products-list > li li{
-			list-style: none;
-			margin: .5em 0;
-		}
+    .widget-products .products-list > li li{
+      list-style: none;
+      margin: .5em 0;
+    }
+
+/*header*/
+.def-header {
+  margin: 1em auto;
+}
+
+  .def-header h3{
+    padding-bottom: .5em;
+    border-bottom: 2px solid;
+  }
+
+/*Vacantes*/
+.vacancy {
+  position: relative;
+  background-color: white;
+}
+
+  .vacancy article {
+    position: relative;
+    max-width: 960px;
+    padding-right: 200px;
+    padding: 1em 200px 1em 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+    .vacancy article  h4 {
+      color: #3a59b1;
+    }
+
+    .vacancy article a{
+      display: block;
+      color: white;
+      background-color: #fbec6b;
+      max-width: 130px;
+      position:absolute;
+      top: 30%;
+      right: 0;
+    }
 
 /*----------------------------------------------------
   1. BLOCKS
@@ -216,95 +281,99 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
 ----------------------------------------------------*/
 
 .widget-products .products-list {
-	position: relative;
-	margin: 1em auto;
+  position: relative;
+  margin: 1em auto;
 }
     .widget-products .products-list {
       padding: 2em 0;
     }
   
-	.widget-products .products-list li .product-image {
-		margin: 1em auto;
-		max-width: 100%;
-		width: 100%;
-		padding: 0;
-	}
+  .widget-products .products-list li .product-image {
+    margin: 1em auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
 
-	.widget-new-products .products-list li .product-shop {
-	  margin: 1em auto;
-	}
+  .widget-new-products .products-list li .product-shop {
+    margin: 1em auto;
+  }
 
 /*----------------------------------------------------
   2. About
     - Widget carousel products
 ----------------------------------------------------*/
 .arrancadores {
-	background-color:#2b3c6c;
-	color: white;
-	padding: 2em;
+  background-color:#2b3c6c;
+  color: white;
+  padding: 2em;
 }
 
  .arrancadores h2,
  .arrancadores h3 {
- 	color: white;
+  color: white;
  }
 
  .arrancadores-lst {
-    padding:0; 	
+    padding:0;  
   }
 
-  	.arrancadores-lst li {
-  		display: inline-block;
-  		width: 20%;
-  		margin-right: 2%;
-  	}
+    .arrancadores-lst li {
+      display: inline-block;
+      width: 20%;
+      margin-right: 2%;
+    }
 
-  	 .arrancadores-lst li img {
-  	 	width: 100%;
-  	 }
+     .arrancadores-lst li img {
+      width: 100%;
+     }
 
 /*----------------------------------------------------
   3. Contact Page
 ----------------------------------------------------*/
 .links-info {
-	overflow: hidden;
-	margin: 2em auto;
+  overflow: hidden;
+  margin: 2em auto;
 }
 .links-info > div{
-	text-align: center;
-	border: 1px solid #f2f2f2;
-	padding: 1em;
-	min-height: 64px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 1em;
+  min-height: 64px;
 }
 
-	.links-info > div span {
-		display: inline-block;
-		width: 76%;
-		text-align: left;
-		vertical-align: middle;
-	}
+  .links-info > div span {
+    display: inline-block;
+    width: 76%;
+    text-align: left;
+    vertical-align: middle;
+  }
 
-	.links-info > div span:first-child {
-		width: 10%;
-		font-size: 1.3em;
-	}
+  .links-info > div span:first-child {
+    width: 10%;
+    font-size: 1.3em;
+  }
 
 /* 3.1 Contact form*/
 .cms-contacto .form {
-	display: block;
+  display: block;
 }
 
-	.cms-contacto .form > .row > div {
-		width: 100%;
-		float: none;
-	}
+  .cms-contacto .form > .row > div {
+    width: 100%;
+    float: none;
+  }
 
-	.cms-contacto .form li {
-		list-style: none;
-		width: 100%
-	}
+  .cms-contacto .form li {
+    list-style: none;
+    width: 100%
+  }
 
-	.cms-contacto .contact-info .row {
-		width: 30%;
-		display: inline-block;
-	}
+  .cms-contacto .contact-info .row {
+    width: 30%;
+    display: inline-block;
+  }
+
+.product-shop .add-to-links li {
+    margin-top: 10px;
+}
