@@ -58,6 +58,10 @@ if($enable_addtocart_sticky){
                 <div class="sticky-detail">
                     <div class="product-name-area">
                         <h2 class="product-name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h2>
+
+                        <h3><?php echo $this->__('SKU:') . $this->htmlEscape($_product->getData('sku'));?></h3>
+                        <h4><?php echo $this->__('Marca:') . $this->htmlEscape($_product->getData('brand0101'));?></h4>
+
                         <?php echo $this->getPriceHtml($_product, false, '_clone') ?>
                     </div>
                     <?php 
@@ -94,6 +98,8 @@ if($enable_addtocart_sticky){
                         </span>
                     <?php endif; ?>
                     <?php endif; ?>
+                    <h3><?php echo $this->__('SKU:') . $this->htmlEscape($_product->getData('sku'));?></h3>
+                    <h4><?php echo $this->__('Marca:') . $this->htmlEscape($_product->getData('brand0101'));?></h4>
 					<?php if ($_product->isAvailable()): ?>
 						<p class="availability in-stock"><span>(<?php echo $this->__('In stock') ?>)</span></p>
 					<?php else: ?>
