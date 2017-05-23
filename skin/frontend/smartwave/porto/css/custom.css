@@ -377,3 +377,28 @@ ul.menu > li.logo-sticky {
 .product-shop .add-to-links li {
     margin-top: 10px;
 }
+
+
+/*----------------------------------------------------
+  4. Category page
+----------------------------------------------------*/
+
+.catalog-category-view .container{
+  max-width: 1224px;
+}
+
+  .catalog-category-view .col2-left-layout .col-left ul li{
+    margin: 0;
+  }
+
+  .catalog-category-view .col2-left-layout .col-left ul li > a{
+    padding: .5em 0;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+  }
+
+  .catalog-category-view .col2-left-layout .col-left img {
+    max-width: 100%;
+    height: auto;
+  }

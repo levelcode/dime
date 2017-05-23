@@ -132,7 +132,7 @@
 "Please enter a valid number in ""notify_stock_qty"" field","Please enter a valid number in ""notify_stock_qty"" field"
 "Please use numbers only in ""category_id"" field.","Please use numbers only in ""category_id"" field."
 "Please use numbers only in ""qty_increments"" field. Please avoid spaces or other characters such as dots or commas.","Please use numbers only in ""qty_increments"" field. Please avoid spaces or other characters such as dots or commas."
-"Position","Position"
+"Position","Posición"
 "Price","Precio"
 "Price Including Tax","Price Including Tax"
 "Product","Product"

@@ -188,7 +188,7 @@
 "Model collection resource name is not defined.","Model collection resource name is not defined."
 "Module ""%1$s"" cannot depend on ""%2$s"".","Module ""%1$s"" cannot depend on ""%2$s""."
 "Module ""%1$s"" requires module ""%2$s"".","Module ""%1$s"" requires module ""%2$s""."
-"Name","Name"
+"Name","Nombre"
 "New Design Change","New Design Change"
 "New Store","New Store"
 "New Store View","New Store View"
