@@ -1,0 +1,70 @@
+<div class="header-wrapper">
+<div class="main-nav">
+    <div class="container">            
+        <div class="menu-wrapper">
+            <div class="menu-all-pages-container">
+                <ul class="menu">
+                    <li class="">
+    <a href="//dimelectrico.com/">
+       <span>Inicio</span>
+    </a>
+</li>
+
+
+<li class="logo-sticky"><img src="http://dimelectrico.com/skin/frontend/smartwave/porto/images/logo-fixed.png"></li>
+<li class="menu-item">
+	<a href="#">Nosotros</a>
+	<div class="nav-sublist-dropdown" style="display: none; list-style: none;">
+		<div class="container">
+			<ul>
+				<li class="menu-item">
+					<a href="/acerca">Quienes Somos</a>
+				</li>
+				<li class="menu-item">
+					<a href="/responsabilidad-social">Responsabilidad Social</a>
+				</li>
+				<li class="menu-item">
+					<a href="/trabaje">Trabaje con Nosotros</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</li>
+<li class="menu-item">
+	<a href="/ingenieria">Ingeniería</a>
+</li>
+<li class="menu-item">
+	<a href="#">Productos</a>
+       <div class="nav-sublist-dropdown" style="display: none; list-style: none;">
+		<div class="container">
+        <ul>
+	<li><a href="/medida">Medida</a></li>
+	<li><a href="/conexiones">Conexiones</a></li>
+	<li><a href="/herramientas">Herramientas</a></li>
+	<li><a href="/control">Control</a></li>
+	<li><a href="/maniobra">Maniobra</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item">
+	<a href="/contacto">Contacto</a>
+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+var SW_MENU_POPUP_WIDTH = 0;
+jQuery(function($){
+    $(document).ready(function(){
+        $('.main-nav .menu').et_menu({
+            type: "default",
+            delayTime: 0        });
+    });
+});
+</script>

@@ -3877,7 +3877,13 @@ i.ajax-loader.medium{width:24px;height:24px;border-width:2px 3px 1px 0}
 .catalog-product-view .background-overlay{background-color:#fff}
 .catalog-product-view #loading_mask_loader{display:block}
 
+.btn_manual{background-color:#385f99; color:white;padding:10px;border-radius:10px}
+.btn_manual:hover{text-decoration:none; color:white;padding:10px;border-radius:10px}
+.table_description td{border:solid 1px; padding:10px}
 .data-table .product-image img{max-width:none;min-width:100px}
+
+.catalog-product-view  .col2-right-layout .col-main {width: 70% !important;}
+.catalog-product-view  .col2-right-layout .col-right {width: 30% !important;}
 
 @media screen and(-ms-high-contrast: active),(-ms-high-contrast: none){
     .rating-box{width:65px;height:12px;font-size:0;line-height:0;text-indent:-999em;overflow:hidden;position:relative}

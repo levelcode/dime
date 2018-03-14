@@ -1,0 +1,357 @@
+<div id="banner-slider-demo-5">
+<div class="item"><img alt="" src="http://dimelectrico.com/media/wysiwyg/portada.jpg"  /></div>
+<div class="item"><img alt="" src="http://dimelectrico.com/media/wysiwyg/Dime-web-1.jpg" /></div>
+<div class="item"><img alt="" src="http://dimelectrico.com/media/wysiwyg/Dime-web-2.jpg" /></div>
+</div>
+<script type="text/javascript">// <![CDATA[
+    jQuery(function($){
+        $("#banner-slider-demo-5").owlCarousel({autoPlay:true,lazyLoad:true,stopOnHover: true,pagination: false, autoPlay: true,navigation: true,navigationText:["<i class='icon-chevron-left'></i>","<i class='icon-chevron-right'></i>"],slideSpeed : 500,paginationSpeed : 500,singleItem:true,transitionStyle : "fade"});
+    });
+// ]]></script>
+<div class="homepage-bar">
+<div class="container">
+<div class="row">
+<div class="col-md-4"><em class="icon-truck" style="font-size: 36px;"></em>
+<div class="text-area">
+<h3>Env&iacute;o a su ciudad</h3>
+<p>Cubrimos env&iacute;os a todo el pa&iacute;s.</p>
+</div>
+</div>
+<div class="col-md-4"><em class="icon-dollar"></em>
+<div class="text-area">
+<h3>Garant&iacute;a asegurada</h3>
+<p>Productos con alta calidad.</p>
+</div>
+</div>
+<div class="col-md-4"><em class="icon-lifebuoy" style="font-size: 32px;"></em>
+<div class="text-area">
+<h3>Comunicaci&oacute;n en l&iacute;nea</h3>
+<p>Contacto directo desde la p&aacute;gina.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="padding-top: 35px;">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h2 class="filter-title"><span class="content"><strong>Nuevos Productos</strong></span></h2>
+<div class="owl-top-narrow" id="featured_product"><div class="widget widget-new-products">
+    <div class="widget-title">
+        <h2>Nuevos productos</h2>
+    </div>
+    <div class="widget-products">
+                <ol class="products-list">
+                    <li class="item">
+                <a href="http://dimelectrico.com/localizador-de-cables-72" title="Localizador de cables " class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut25b-2.jpg" width="85" height="85" alt="Localizador de cables " /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/localizador-de-cables-72" title="Localizador de cables )">Localizador de cables </a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-71-widget-new-list">
+                                            <span class="price">0,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/71/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/71/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/71/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/monitor-de-consumo-de-energia" title="Monitor de Consumo de Energía" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut230b-1.jpg" width="85" height="85" alt="Monitor de Consumo de Energía" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/monitor-de-consumo-de-energia" title="Monitor de Consumo de Energía)">Monitor de Consumo de Energía</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-69-widget-new-list">
+                                            <span class="price">100.000,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/69/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/69/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/69/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/probador-gfci-tipoclavija" title="Probador GFCI tipoclavija" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut08b-1.jpg" width="85" height="85" alt="Probador GFCI tipoclavija" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/probador-gfci-tipoclavija" title="Probador GFCI tipoclavija)">Probador GFCI tipoclavija</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-67-widget-new-list">
+                                            <span class="price">30.000,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/67/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/67/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/67/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/generador-de-tonos-digital" title="Generador de tonos digital" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut681a-3_1.jpg" width="85" height="85" alt="Generador de tonos digital" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/generador-de-tonos-digital" title="Generador de tonos digital)">Generador de tonos digital</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-64-widget-new-list">
+                                            <span class="price">508.200,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/64/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/64/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/64/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/convertidor-de-corriente-98" title="Convertidor  de corriente" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/utm03.png" width="85" height="85" alt="Convertidor  de corriente" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/convertidor-de-corriente-98" title="Convertidor  de corriente)">Convertidor  de corriente</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-63-widget-new-list">
+                                            <span class="price">41.700,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/63/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/63/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/63/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/convertidor-de-corriente" title="Convertidor  de corriente" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/utm04.jpg" width="85" height="85" alt="Convertidor  de corriente" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/convertidor-de-corriente" title="Convertidor  de corriente)">Convertidor  de corriente</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-62-widget-new-list">
+                                            <span class="price">16.700,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/62/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/62/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/62/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/puntas-extendibles" title=" Puntas extendibles" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/utc07.png" width="85" height="85" alt=" Puntas extendibles" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/puntas-extendibles" title=" Puntas extendibles)"> Puntas extendibles</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-61-widget-new-list">
+                                            <span class="price">27.800,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/61/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/61/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/61/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/vibrometro" title="Vibrometro de superficies planas" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut312-1_1.jpg" width="85" height="85" alt="Vibrometro de superficies planas" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/vibrometro" title="Vibrometro de superficies planas)">Vibrometro de superficies planas</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-57-widget-new-list">
+                                            <span class="price">617.800,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/57/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/57/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/57/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item">
+                <a href="http://dimelectrico.com/probador-de-lamparas" title="Probador de lamparas" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut651b-1.jpg" width="85" height="85" alt="Probador de lamparas" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/probador-de-lamparas" title="Probador de lamparas)">Probador de lamparas</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-56-widget-new-list">
+                                            <span class="price">60.700,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/56/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/56/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/56/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                    <li class="item last">
+                <a href="http://dimelectrico.com/luxometro" title="Luxometro" class="product-image"><img src="http://dimelectrico.com/media/catalog/product/cache/1/small_image/85x/9df78eab33525d08d6e5fb8d27136e95/u/t/ut382-1.jpg" width="85" height="85" alt="Luxometro" /></a>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <h3 class="product-name"><a href="http://dimelectrico.com/luxometro" title="Luxometro)">Luxometro</a></h3>
+                                                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-55-widget-new-list">
+                                            <span class="price">233.300,00 COP$</span>                                    </span>
+                        
+        </div>
+
+                                                    <button type="button" title="Añadir al Carrito" class="button btn-cart" onclick="setLocation('http://dimelectrico.com/checkout/cart/add/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/product/55/form_key/O7Jb8oIZ5YHXQeNn/')"><span><span>Añadir al Carrito</span></span></button>
+                                                <ul class="add-to-links">
+                                                            <li><a href="http://dimelectrico.com/wishlist/index/add/product/55/form_key/O7Jb8oIZ5YHXQeNn/" class="link-wishlist">Añadir a lista que quieres.</a></li>
+                                                                                        <li><span class="separator">|</span> <a href="http://dimelectrico.com/catalog/product_compare/add/product/55/uenc/aHR0cDovL2RpbWVsZWN0cmljby5jb20v/form_key/O7Jb8oIZ5YHXQeNn/" class="link-compare">Añadir para comparar.</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </li>
+                </ol>
+    </div>
+</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+                    jQuery(function($){
+                        $("#featured_product .products-list").owlCarousel({lazyLoad: true,    itemsCustom: [ [0, 1], [320, 1], [480, 2], [768, 3], [992, 4], [1280, 5] ],    responsiveRefreshRate: 50,    slideSpeed: 200,    paginationSpeed: 500,    scrollPerPage: false,    stopOnHover: true,    rewindNav: true,    rewindSpeed: 600,    pagination: false,    navigation: true,    autoPlay: true,    navigationText:["<i class='icon-left-open'></i>","<i class='icon-right-open'></i>"]});
+                    });
+                
+// ]]></script>
+</div>
+</div>
+</div>
+</div>
+<div style="padding-top: 35px;">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h2 class="filter-title"><span class="content"><strong>Productos Destacados</strong></span></h2>
+<div class="owl-top-narrow" id="featured_product2"></div>
+<script type="text/javascript">// <![CDATA[
+                    jQuery(function($){
+                        $("#featured_product2 .products").owlCarousel({lazyLoad: true,    itemsCustom: [ [0, 1], [320, 1], [480, 2], [768, 3], [992, 4], [1280, 5] ],    responsiveRefreshRate: 50,    slideSpeed: 200,    paginationSpeed: 500,    scrollPerPage: false,    stopOnHover: true,    rewindNav: true,    rewindSpeed: 600,    pagination: false,    navigation: true,    autoPlay: true,    navigationText:["<i class='icon-left-open'></i>","<i class='icon-right-open'></i>"]});
+                    });
+                
+// ]]></script>
+</div>
+</div>
+</div>
+</div>
+<!--div style="padding-top: 20px;" class="custom-support">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="icon-star" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Customer Support</h2>
+                    <em>YOU WON'T BE ALONE</em>
+                    <p>We really care about you and your website as much as you do. Purchasing Porto or any other theme from us you get 100% free support.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <i class="icon-reply" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Fully Customizable</h2>
+                    <em>TONS OF OPTIONS</em>
+                    <p>With Porto you can customize the layout, colors and styles within only a few minutes. Start creating an amazing website right now!</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <i class="icon-paper-plane" style="border-radius:50%;border:2px solid #cecece;color:#333;background-color:transparent;line-height:58px;font-size:25px;"></i>
+                <div class="content">
+                    <h2>Powerful Admin</h2>
+                    <em>MADE TO HELP YOU</em>
+                    <p>Porto has very powerful admin features to help customer to build their own shop in minutes without any special skills in web development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div-->
+<p></p>
+<!--div class="parallax-wrapper ">
+    <div class="overlay overlay-color" style="background-color: #000000; opacity: 0.75; filter: alpha(opacity=75);"></div>
+    <div class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(http://dimelectrico.com/media/wysiwyg/banner1.jpg);">
+        <div class="parallax-slider" style="position: relative; z-index: 3;">
+            <div class="container">
+                <div id="parallax-slider-demo-5" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                    <div class="item">
+                        <h2 style="font-weight:600;">EXPLORE <b style="font-weight:800;">PORTO</b></h2>
+                        <p style="font-weight:300;">Premium theme, unlimited possibilities...</p>
+                        <a href="#" style="font-weight:300;">Purchase now &gt;</a>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(function($){
+                    $("#parallax-slider-demo-5").owlCarousel({navigation : false,slideSpeed : 300,paginationSpeed : 400,    stopOnHover: true,autoPlay: true,singleItem:true});
+                });
+            </script>
+        </div>
+    </div>
+</div-->

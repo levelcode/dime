@@ -1,0 +1,41 @@
+<div class="widget widget-static-block"><div class="band blue no-gutter">
+        <div class="col-md-6 txt">
+          <h2>Nuestra</h2>
+          <h3>Misión</h3>
+          <hr/>
+          <p>
+            Di-me Ltda. Importa, distribuye y comercializa productos eléctricos, presta asesorías, servicios y soluciones a usuarios del sector industrial, comercial, público y privado; teniendo al cliente como razón de todo lo que hacemos con profesionalismo, ética y estrategias de negocios, apoyados en medios tecnológicos de vanguardia.
+          </p>
+        </div>
+        <div class="col-md-6 thumb">
+             <img src="http://dimelectrico.com/media/wysiwyg/seccion-nosotros-foto1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="band no-gutter">
+        <div class="col-md-6 thumb">
+          <img src="http://dimelectrico.com/media/wysiwyg/vision.jpg" alt="" />
+        </div>
+        <div class="col-md-6 txt">
+          <h2>Nuestra</h2>
+          <h3>Visión</h3>
+          <hr/>
+          <p>
+            “Ser una importante compañía en su sector, reconocidos por la calidad, eficiencia y respaldo en los servicios y productos que ofrecemos, caracterizándonos por suministrar material especializado, mantenimiento, reparación e instalaciones eléctricas, logrando el fortalecimiento del punto de venta y dinamizando el mercado a través de redes digitales de comunicación por medio de modernas plataformas virtuales y físicas que nos permiten envío masivo de publicidad, representando a proveedores nacionales e internacionales logrando así exclusividad en precios y productos para el beneficio de nuestros clientes.”
+          </p>
+        </div>
+      </div>
+
+      <div class="band blue no-gutter">
+        <div class="col-md-6 txt">
+          <h2>Nuestras</h2>
+          <h3>Políticas de Calidad</h3>
+          <hr/>
+          <p>
+           “Ser una importante compañía en su sector, reconocidos por la calidad, eficiencia y respaldo en los servicios y productos que ofrecemos, caracterizándonos por suministrar material especializado, mantenimiento, reparación e instalaciones eléctricas, logrando el fortalecimiento del punto de venta y dinamizando el mercado a través de redes digitales de comunicación por medio de modernas plataformas virtuales y físicas que nos permiten envío masivo de publicidad, representando a proveedores nacionales e internacionales logrando así exclusividad en precios y productos para el beneficio de nuestros clientes.”
+          </p>
+        </div>
+        <div class="col-md-6 thumb">
+         <img src="http://dimelectrico.com/media/wysiwyg/calidad.jpg" alt="" />
+        </div>
+      </div></div>

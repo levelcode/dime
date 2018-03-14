@@ -116,6 +116,12 @@ body .form-list .field {
 }
 
 /*tabs*/
+#tab_tags_tabbed,
+#tab_static_block_tab_1,
+#tab_additional_tabbed,
+.limiter label {
+  display: none;
+}
 
 .nav.nav-tabs{
   text-align: center;

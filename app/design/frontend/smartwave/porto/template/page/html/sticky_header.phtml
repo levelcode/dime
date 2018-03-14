@@ -16,6 +16,9 @@
                     $('.header-container .menu-wrapper').prepend('<div class="sticky-logo">'+logo_image+'</div>');
                     <?php if(Mage::getStoreConfig('porto_settings/header/sticky_header_logo_img', $code)):?>
                     $(".sticky-logo img").attr("src","<?php echo $this->getSkinUrl(Mage::getStoreConfig('porto_settings/header/sticky_header_logo_img', $code)); ?>");
+                    $('.header-container.type15.sticky-header .header > .logo img').addClass("hide");
+                    $('.header-container.type15.sticky-header .header > .logo img.sticky-logo-image').remove();
+                    $('.header-container.type15.sticky-header .header > .logo').append('<img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('porto_settings/header/sticky_header_logo_img', $code)); ?>" class="sticky-logo-image" alt="Sticky Logo"/>');
                     <?php endif; ?>
                 <?php endif; ?>
 				    $('.header-container .header-wrapper > div').each(function(){
@@ -33,6 +36,8 @@
 				    $('.header-container .menu-wrapper .mini-cart').remove();
                 <?php if(Mage::getStoreConfig('porto_settings/header/sticky_header_logo', $code)): ?>
                     $('.header-container .menu-wrapper > .sticky-logo').remove();
+                    $('.header-container.type15 .header > .logo img.sticky-logo-image').remove();
+                    $('.header-container.type15 .header > .logo img').removeClass("hide");
                 <?php endif; ?>
 				    scrolled = false;
 				    $('.header-container .header-wrapper > div').each(function(){

@@ -1,0 +1,12 @@
+<form id="search_mini_form" action="//dimelectrico.com/catalogsearch/result/" method="get">
+    <div class="form-search ">
+        <label for="search">Buscar:</label>
+                <input id="search" type="text" name="q" class="input-text" />
+                <select id="cat" name="cat">
+            <option value="">All Categories</option>
+                    </select>
+                <button type="submit" title="Búsqueda" class="button"><i class="icon-search"></i></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <div class="clearer"></div>
+    </div>
+</form>
