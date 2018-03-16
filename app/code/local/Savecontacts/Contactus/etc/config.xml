@@ -1,0 +1,18 @@
+<config>
+    <modules>
+        <Savecontacts_Contactus>
+            <version>0.1.0</version>
+        </Savecontacts_Contactus>
+    </modules>
+<frontend>
+       <routers>
+            <contacts>
+                <args>
+                    <modules>
+                        <Savecontacts_Contactus before="Mage_Contacts">Savecontacts_Contactus</Savecontacts_Contactus>
+                    </modules>
+                </args>
+            </contacts>
+        </routers>
+    </frontend>
+</config>
