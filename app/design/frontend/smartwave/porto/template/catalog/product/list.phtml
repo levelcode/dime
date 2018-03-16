@@ -162,6 +162,9 @@ var i = 0;
 					?>
                     <?php endif; ?>
                     <?php endif; ?>
+                    <h4>Referencia: <?php echo $_helper->productAttribute($_product, nl2br($_product->getSku()), 'sku') ?></h4>
+                    
+                    <h5>Marca: <?php echo $_product->getResource()->getAttribute('brand0101')->getFrontend()->getValue($_product) ?></h5>
 
                     <div class="short-desc">
                         <?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
@@ -233,7 +236,7 @@ var i = 0;
                                 $base_url .= "quickview/index/view/";
                                 $quickview_url = $base_url."id/".$_product->getId();
                             ?>
-                                <a href="<?php echo $quickview_url; ?>" class="quickviewlink quickview-icon" title="<?php echo $this->__("Quick View"); ?>"><i class="icon-search"></i></a>
+                                <a href="<?php echo $quickview_url; ?>" class="quickviewlink quickview-icon" title="<?php echo $this->__("Vista Rápida"); ?>"><i class="icon-search"></i></a>
                             <?php
                             }
                             ?>
@@ -280,7 +283,7 @@ var i = 0;
                         $base_url .= "quickview/index/view/";
                         $quickview_url = $base_url."id/".$_product->getId();
                         ?>
-                        <a href="<?php echo $quickview_url; ?>" class="quickview-icon"><i class="icon-export"></i><span><?php echo $this->__("Quick View"); ?></span></a>
+                        <a href="<?php echo $quickview_url; ?>" class="quickview-icon"><i class="icon-export"></i><span><?php echo $this->__("Vista Rápida"); ?></span></a>
                     <?php
                     }
                     ?>
@@ -379,6 +382,11 @@ var i = 0;
                         <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h2>
                     <?php endif;?>
                     <?php if(Mage::getStoreConfig("porto_settings/category/rating_star", $code)):?>
+                    
+                    <h4>Referencia: <?php echo $_helper->productAttribute($_product, nl2br($_product->getSku()), 'sku') ?></h4>
+                    
+                    <h5>Marca: <?php echo $_product->getResource()->getAttribute('brand0101')->getFrontend()->getValue($_product) ?></h5>
+                    
 					<?php
                     if (Mage::helper('catalog')->isModuleEnabled('Mage_Review')):
                     ?>

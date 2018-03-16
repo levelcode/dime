@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_EnquirySaver
+
+ * @category   Turiknox
+ * @package    Turiknox_EnquirySaver
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-enquiry-saver/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+ -->
+<config>
+    <sections>
+        <contacts>
+            <groups>
+                <contacts>
+                    <fields>
+                        <enable translate="label">
+                            <label>Save Contact Enquiries in the Magento Admin</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment><![CDATA[Set this option to 'Yes' to start saving contact form enquiries to the database.<br/>
+                            The enquiries can be viewed within the top menu under Customers -> Contact Form Enquiries]]></comment>
+                        </enable>
+                    </fields>
+                </contacts>
+            </groups>
+        </contacts>
+    </sections>
+</config>

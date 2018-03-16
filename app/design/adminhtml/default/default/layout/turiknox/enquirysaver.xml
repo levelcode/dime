@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_EnquirySaver
+
+ * @category   Turiknox
+ * @package    Turiknox_EnquirySaver
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-enquiry-saver/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+ -->
+<layout>
+    <adminhtml_enquirysaver_index>
+        <reference name="content">
+            <block type="turiknox_enquirysaver/adminhtml_enquiries" name="turiknox.enquirysaver.enquiries"/>
+        </reference>
+    </adminhtml_enquirysaver_index>
+    <adminhtml_enquirysaver_edit>
+        <reference name="content">
+            <block type="turiknox_enquirysaver/adminhtml_enquiries_edit" name="turiknox.enquirysaver.enquiries.edit"/>
+        </reference>
+    </adminhtml_enquirysaver_edit>
+</layout>

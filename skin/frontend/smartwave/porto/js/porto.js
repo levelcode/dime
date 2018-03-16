@@ -38,6 +38,20 @@ jQuery(function($){
         return false;
     });
     
+    /*Menu mobile*/
+    var $itemMenu = $('.mobile-nav .sw-mobile-menu li');
+
+    $itemMenu.each(function(index,el){
+		var $this = $(this);
+		
+		$this.on('click',function(ev){
+			ev.stopPropagation();
+
+			var $submenu = $(this).find('.nav-sublist-dropdown');
+			$submenu.slideToggle(400);
+		});
+	});
+    
     $(".word-rotate").each(function() {
 
         var $this = $(this),

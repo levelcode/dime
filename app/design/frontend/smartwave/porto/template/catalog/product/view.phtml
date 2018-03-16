@@ -229,6 +229,12 @@ if($enable_addtocart_sticky){
                         <div class="std" <?php if($enabled_richsnippets): ?>itemprop="description"<?php endif; ?>><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
                 <?php endif;?>
+                <div class="std">
+                    <br/>
+                    <h4>Referencia: <?php echo $_helper->productAttribute($_product, nl2br($_product->getSku()), 'sku') ?></h4>
+                    
+                    <h4>Marca: <?php echo $_product->getResource()->getAttribute('brand0101')->getFrontend()->getValue($_product) ?></h4>
+                </div>
                 <?php if($custom_block_html && $move_custom_block):?>
                     <div class="short-custom-block">
                         <?php echo $custom_block_html; ?>

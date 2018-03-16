@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Dc_CurrencySymbolPosition>
+            <version>0.1.0</version>
+        </Dc_CurrencySymbolPosition>
+    </modules>
+    <frontend>
+        <events>
+            <currency_display_options_forming>
+                <observers>
+                    <dc_currency_symbol_position>
+                        <class>Dc_CurrencySymbolPosition_Model_Observer</class>
+                        <method>applyPosition</method>
+                    </dc_currency_symbol_position>
+                </observers>
+            </currency_display_options_forming>
+        </events>
+    </frontend>
+</config>

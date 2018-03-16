@@ -92,7 +92,7 @@ a.tooltip-close{position:absolute;right:10px;top:10px;color:#fff}
   3. Contact
 */
 body #at4-share,
-body .header .form-search #cat,
+body .header-container .form-search #cat,
 body .cart .cart-collaterals h2 {
   display: none;
 }
@@ -167,7 +167,7 @@ ul.menu > li.logo-sticky {
     display: block;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 0px;
     max-width: 89px;
   }
 
@@ -365,6 +365,12 @@ ul.menu > li.logo-sticky {
   display: block;
 }
 
+.cms-contacto .contact-info{
+  display: none;
+}
+
+
+
   .cms-contacto .form > .row > div {
     width: 100%;
     float: none;
@@ -408,3 +414,10 @@ ul.menu > li.logo-sticky {
     max-width: 100%;
     height: auto;
   }
+
+
+.main-nav .menu > li .nav-sublist-dropdown ul li{
+
+}
+.main-nav .menu-wrapper {
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Save_Contactform>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Save_Contactform>
+    </modules>
+</config>

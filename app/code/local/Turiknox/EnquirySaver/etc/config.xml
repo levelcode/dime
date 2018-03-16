@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_EnquirySaver
+
+ * @category   Turiknox
+ * @package    Turiknox_EnquirySaver
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-enquiry-saver/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+-->
+<config>
+    <modules>
+        <Turiknox_EnquirySaver>
+            <version>1.0.0</version>
+        </Turiknox_EnquirySaver>
+    </modules>
+    <global>
+        <blocks>
+            <turiknox_enquirysaver>
+                <class>Turiknox_EnquirySaver_Block</class>
+            </turiknox_enquirysaver>
+        </blocks>
+        <helpers>
+            <turiknox_enquirysaver>
+                <class>Turiknox_EnquirySaver_Helper</class>
+            </turiknox_enquirysaver>
+        </helpers>
+        <models>
+            <turiknox_enquirysaver>
+                <class>Turiknox_EnquirySaver_Model</class>
+                <resourceModel>turiknox_enquirysaver_resource</resourceModel>
+            </turiknox_enquirysaver>
+            <turiknox_enquirysaver_resource>
+                <class>Turiknox_EnquirySaver_Model_Resource</class>
+                <entities>
+                    <enquiries>
+                        <table>turiknox_enquirysaver_enquiries</table>
+                    </enquiries>
+                </entities>
+            </turiknox_enquirysaver_resource>
+        </models>
+        <resources>
+            <turiknox_enquirysaver_setup>
+                <setup>
+                    <module>Turiknox_EnquirySaver</module>
+                </setup>
+            </turiknox_enquirysaver_setup>
+        </resources>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_postdispatch_contacts_index_post>
+                <observers>
+                    <turiknox_enquirysaver_saveenquiry>
+                        <class>turiknox_enquirysaver/observer</class>
+                        <method>saveEnquiry</method>
+                        <type>singleton</type>
+                    </turiknox_enquirysaver_saveenquiry>
+                </observers>
+            </controller_action_postdispatch_contacts_index_post>
+        </events>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <turiknox_enquirysaver>
+                    <file>turiknox/enquirysaver.xml</file>
+                </turiknox_enquirysaver>
+            </updates>
+        </layout>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <turiknox_enquirysaver after="Mage_Adminhtml">Turiknox_EnquirySaver_Adminhtml</turiknox_enquirysaver>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

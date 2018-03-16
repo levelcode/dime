@@ -41,9 +41,9 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[dimelect_mgnt2]]></username>
-                    <password><![CDATA[VAsVmXNeA2DKg]]></password>
-                    <dbname><![CDATA[dimelect_prod]]></dbname>
+                    <username><![CDATA[dimele5_prod]]></username>
+                    <password><![CDATA[LwAwNyNB1t@u]]></password>
+                    <dbname><![CDATA[dimele5_prod]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>

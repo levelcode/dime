@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_EnquirySaver
+
+ * @category   Turiknox
+ * @package    Turiknox_EnquirySaver
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-enquiry-saver/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+-->
+<config>
+    <modules>
+        <Turiknox_EnquirySaver>
+            <codePool>local</codePool>
+            <active>true</active>
+            <depends>
+                <Mage_Contacts />
+            </depends>
+        </Turiknox_EnquirySaver>
+    </modules>
+</config>

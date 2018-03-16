@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_EnquirySaver
+
+ * @category   Turiknox
+ * @package    Turiknox_EnquirySaver
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-enquiry-saver/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+ -->
+<config>
+    <menu>
+        <customer>
+            <children>
+                <enquirysaver translate="title">
+                    <title>Contact Form Enquiries</title>
+                    <sort_order>300</sort_order>
+                    <action>adminhtml/enquirysaver</action>
+                </enquirysaver>
+            </children>
+        </customer>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <customer>
+                        <children>
+                            <enquirysaver translate="title">
+                                <title>Contact Form Enquiries</title>
+                                <sort_order>300</sort_order>
+                            </enquirysaver>
+                        </children>
+                    </customer>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
