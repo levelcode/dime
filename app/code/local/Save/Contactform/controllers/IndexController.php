@@ -76,7 +76,7 @@ class Save_Contactform_IndexController extends Mage_Contacts_IndexController
 
                 $model = Mage::getModel("contactform/contactformsave");
                 $model->setData(array('created_at'=>NOW(),'name'=>$post['name'],
-                    'email'=>$post['email'],'telephone'=>$post['telephone'],
+                    'email'=>$post['email'],'telephone'=>$post['telephone'],'ciudad'=>$post['ciudad'],'como'=>$post['como'],'empresa'=>$post['empresa'],
                     'comment'=>$post['comment']));
                 $model->save();
 

@@ -17,7 +17,7 @@ CREATE TABLE `{$this->getTable('contact_table')}` (
   `contact_id` int(11) unsigned NOT NULL auto_increment,
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   `name` varchar(25) NULL default '',
-  `email` varchar(50) NULL default '',
+  `email` varchar(255) NULL default '',
   `ciudad` varchar(50) NULL default '',
   `como` varchar(50) NULL default '',
   `empresa` varchar(50) NULL default '',
