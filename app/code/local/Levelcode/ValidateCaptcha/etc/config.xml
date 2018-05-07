@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Levelcode_ValidateCaptcha>
+            <version>1.0</version>
+        </Levelcode_ValidateCaptcha>
+    </modules>
+
+    <global>
+       <models>
+          <customer>
+              <rewrite>
+                  <customer>Levelcode_ValidateCaptcha_Model_Customer</customer>
+              </rewrite>
+          </customer>
+       </models>
+    </global>
+</config>

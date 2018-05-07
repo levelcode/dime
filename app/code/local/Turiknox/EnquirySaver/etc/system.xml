@@ -17,15 +17,15 @@
                 <contacts>
                     <fields>
                         <enable translate="label">
-                            <label>Save Contact Enquiries in the Magento Admin</label>
+                            <label>Almacenar Solicitudes de Contacto</label>
                             <frontend_type>select</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <comment><![CDATA[Set this option to 'Yes' to start saving contact form enquiries to the database.<br/>
-                            The enquiries can be viewed within the top menu under Customers -> Contact Form Enquiries]]></comment>
+                            <comment><![CDATA[Almacenando esta opcion se almacenaran las solicitudes realizadas en el formulario directamente en la Base de datos de Dimelectrico.com.<br/>
+                            las solicitudes pueden ser vistas en el menu: <br/> <b>Clientes->Solicitudes de Contacto</b>]]></comment>
                         </enable>
                     </fields>
                 </contacts>

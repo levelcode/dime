@@ -138,6 +138,8 @@
             </ul>
             <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
         </div>
+        <div class="g-recaptcha" data-sitekey="6Lc64EwUAAAAABH3hsnW55x90Am8KpwIwplTzeS7"></div>
+        <span id="captcha-required" style='display:none; color:#ff0000'><?php echo $this->__('Porfavor valide el Captcha para continuar'); ?></span>
         <div class="buttons-set">
             <p class="required"><?php echo $this->__('* Required Fields') ?></p>
             <p class="back-link"><a href="<?php echo $this->escapeUrl($this->getBackUrl()) ?>" class="back-link"><small>&laquo; </small><?php echo $this->__('Back') ?></a></p>

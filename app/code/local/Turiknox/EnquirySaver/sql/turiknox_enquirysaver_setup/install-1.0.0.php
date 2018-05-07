@@ -45,6 +45,33 @@ if (!$installer->tableExists('turiknox_enquirysaver/enquiries')) {
             'Email Address'
         )
         ->addColumn(
+            'ciudad',
+            Varien_Db_Ddl_Table::TYPE_TEXT,
+            255,
+            array(
+                'nullable' => false,
+            ),
+            'Ciudad'
+        )
+        ->addColumn(
+            'empresa',
+            Varien_Db_Ddl_Table::TYPE_TEXT,
+            255,
+            array(
+                'nullable' => false,
+            ),
+            'Empresa'
+        )
+        ->addColumn(
+            'como',
+            Varien_Db_Ddl_Table::TYPE_TEXT,
+            255,
+            array(
+                'nullable' => false,
+            ),
+            'Cómo se entero de DIME'
+        )
+        ->addColumn(
             'telephone',
             Varien_Db_Ddl_Table::TYPE_TEXT,
             255,

@@ -49,3 +49,8 @@ if (typeof dailydealTimeCountersCategory == 'undefined') {
 //]]>
 </script>
 <!--<?php echo "Porto Magento Theme: v".Mage::getConfig()->getModuleConfig("Smartwave_Porto")->version; ?>-->
+<?php
+/* reCAPTCHA */
+if ( strpos( Mage::helper('core/url')->getCurrentUrl(), 'account/create') != false ) { ?>   
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<?php } ?>

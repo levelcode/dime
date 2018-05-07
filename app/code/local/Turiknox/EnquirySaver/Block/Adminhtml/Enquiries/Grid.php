@@ -17,7 +17,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Grid extends Mage_Adminhtm
     {
         parent::__construct();
 
-        $this->setDefaultDir('asc');
+        $this->setDefaultDir('desc');
         $this->setDefaultSort('enquiry_id');
         $this->setId('contactenquiry_grid');
         $this->setSaveParametersInSession(true);
@@ -43,7 +43,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Grid extends Mage_Adminhtm
     {
         $this->addColumn('enquiry_id',
             array(
-                'header'=> $this->__('Enquiry ID'),
+                'header'=> $this->__('Id de Solicitud'),
                 'align' =>'right',
                 'width' => '50px',
                 'index' => 'enquiry_id'
@@ -52,15 +52,33 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Grid extends Mage_Adminhtm
 
         $this->addColumn('name',
             array(
-                'header'=> $this->__('Name'),
+                'header'=> $this->__('Nombre'),
                 'index' => 'name'
             )
         );
 
         $this->addColumn('email',
             array(
-                'header'=> $this->__('Email Address'),
+                'header'=> $this->__('Correo Electrónico'),
                 'index' => 'email'
+            )
+        );
+        $this->addColumn('empresa',
+            array(
+                'header'=> $this->__('Empresa'),
+                'index' => 'empresa'
+            )
+        );
+        $this->addColumn('ciudad',
+            array(
+                'header'=> $this->__('Ciudad'),
+                'index' => 'ciudad'
+            )
+        );
+        $this->addColumn('como',
+            array(
+                'header'=> $this->__('Cómo se Entero de DIME'),
+                'index' => 'como'
             )
         );
 
@@ -79,7 +97,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Grid extends Mage_Adminhtm
 
         $this->addColumn('created_at',
             array(
-                'header'=> $this->__('Created At'),
+                'header'=> $this->__('Fecha de creación'),
                 'index' => 'created_at'
             )
         );
@@ -98,9 +116,9 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Grid extends Mage_Adminhtm
         $this->getMassactionBlock()->setFormFieldName('enquiry_id');
 
         $this->getMassactionBlock()->addItem('delete', array(
-            'label'=> Mage::helper('tax')->__('Delete'),
+            'label'=> Mage::helper('tax')->__('Borrar'),
             'url'  => $this->getUrl('*/*/massDelete', array('' => '')),
-            'confirm' => Mage::helper('tax')->__('Are you sure?')
+            'confirm' => Mage::helper('tax')->__('Esta Seguro?')
         ));
 
         return $this;

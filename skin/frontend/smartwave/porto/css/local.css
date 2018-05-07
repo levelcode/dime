@@ -2294,7 +2294,7 @@ li.etalage_small_thumbs{margin-top:8px;top:100%}
 
 .footer-bottom{min-height:50px;line-height:40px;background-color: #385f99;padding:25px 0;}
 .footer-bottom a.logo{float:left;margin-right:45px}
-.footer-bottom a.logo img{display:inline-block;vertical-align:middle;max-width: 77px;}
+.footer-bottom a.logo img{display:inline-block;vertical-align:middle;max-width: 77px;padding-bottom: 30px;}
 .footer-bottom .custom-block{float:left;margin-left:60px}
 .footer-bottom .custom-block img{max-width:100%;display:inline-block;vertical-align:middle}
 .footer-bottom address{float:right;line-height:40px;color: white;}

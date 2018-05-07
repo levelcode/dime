@@ -33,7 +33,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Edit_Form extends Mage_Adm
         ));
 
         $fieldset = $form->addFieldset('enquiry_general', array(
-            'legend'=> $this->__('Enquiry'),
+            'legend'=> $this->__('Solicitud de Contacto'),
             'class' => 'fieldset-wide',
         ));
 
@@ -78,6 +78,28 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Edit_Form extends Mage_Adm
             'label' 	=> $this->__('Telephone'),
             'title' 	=> $this->__('Telephone'),
             'readonly'	=> true,
+        ));
+
+        $fieldset->addField('ciudad', 'text', array(
+            'name'      => 'telephone',
+            'label'     => $this->__('Ciudad'),
+            'title'     => $this->__('Ciudad'),
+            'readonly'  => true,
+        ));
+
+        $fieldset->addField('como', 'text', array(
+            'name'      => 'telephone',
+            'label'     => $this->__('Cómo se Entero de DIME'),
+            'title'     => $this->__('Cómo se Entero de DIME'),
+            'readonly'  => true,
+        ));
+
+
+        $fieldset->addField('empresa', 'text', array(
+            'name'      => 'empresa',
+            'label'     => $this->__('Empresa'),
+            'title'     => $this->__('Empresa'),
+            'readonly'  => true,
         ));
 
         $fieldset->addField('comment', 'textarea', array(

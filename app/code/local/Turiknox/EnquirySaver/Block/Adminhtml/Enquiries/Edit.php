@@ -37,7 +37,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries_Edit  extends Mage_Adminht
         if ($enquiry = Mage::registry('enquiry')) {
             $enquiryId = $enquiry->getId();
         }
-        return $this->__('Contact Enquiry: #%s', $enquiryId);
+        return $this->__('Solicitud de contacto: #%s', $enquiryId);
     }
 
 }

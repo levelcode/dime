@@ -19,7 +19,7 @@ class Turiknox_EnquirySaver_Block_Adminhtml_Enquiries extends Mage_Adminhtml_Blo
 
         $this->_controller = 'adminhtml_enquiries';
         $this->_blockGroup = 'turiknox_enquirysaver';
-        $this->_headerText = $this->__('Contact Form Enquiries');
+        $this->_headerText = $this->__('Solicitudes de Contacto');
 
         $this->_removeButton('add');
     }

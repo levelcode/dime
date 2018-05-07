@@ -80,6 +80,22 @@ class Save_Contactform_IndexController extends Mage_Contacts_IndexController
                     'comment'=>$post['comment']));
                 $model->save();
 
+                $mailTemplate = Mage::getModel('core/email_template');
+                /* @var $mailTemplate Mage_Core_Model_Email_Template */
+                $mailTemplate->setDesignConfig(array('area' => 'frontend'))
+                    ->setReplyTo($post['email'])
+                    ->sendTransactional(
+                        Mage::getStoreConfig(self::XML_PATH_EMAIL_TEMPLATE),
+                        Mage::getStoreConfig(self::XML_PATH_EMAIL_SENDER),
+                        Mage::getStoreConfig(self::XML_PATH_EMAIL_RECIPIENT),
+                        null,
+                        array('data' => $postObject)
+                    );
+
+                if (!$mailTemplate->getSentSuccess()) {
+                    throw new Exception();
+                }
+
                 Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
                 $this->_redirect('*/*/');
 
