@@ -3967,7 +3967,8 @@ i.ajax-loader.medium{width:24px;height:24px;border-width:2px 3px 1px 0}
 }
 }
 /*Fix for mobile issues*/
-.checkout-onepage-index .col-main.col-sm-9 {
+.checkout-onepage-index .col-main.col-sm-9,
+.col-main {
     position: relative;
     z-index: 100;
 }
