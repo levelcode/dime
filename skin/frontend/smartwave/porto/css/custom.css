@@ -421,3 +421,8 @@ ul.menu > li.logo-sticky {
 }
 .main-nav .menu-wrapper {
 }
+/*Fix for mobile issues*/
+.checkout-onepage-index .col-main.col-sm-9 {
+    position: relative;
+    z-index: 100;
+}
