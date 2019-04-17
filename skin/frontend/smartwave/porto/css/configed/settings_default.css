@@ -1,6 +1,10 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
+<<<<<<< HEAD
+ * 2019-04-17 11:18:14 */
+=======
  * 2018-02-21 01:33:25 */
+>>>>>>> c48c6544ea081bf789a1eda67bc39a144586da45
 
     .catalog-category-view .breadcrumbs > .container, .catalogsearch-result-index .breadcrumbs > .container, .catalog-category-view .main-container > .container, .catalogsearch-result-index .main-container > .container { width: 100%; }
 	
