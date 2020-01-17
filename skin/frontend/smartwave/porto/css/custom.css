@@ -427,11 +427,12 @@ ul.menu > li.logo-sticky {
     z-index: 100;
 }
 
-/*Disable shop flow*/
-body .widget-new-products .products-list li .product-shop .f-fix > a,
-body .add-to-links,
-body .item .details-area .actions,
-body .add-to-box,
-body .header-container .top-links-area {
-  display: none;
-}
+/*/*Disable shop flow*/
+/*body .widget-new-products .products-list li .product-shop .f-fix > a,
+/*body .add-to-links,
+/*body .item .details-area .actions,
+/*body .add-to-box,
+/*body .header-container .top-links-area,
+/*body .header-container.sticky-header .menu-wrapper .mini-cart {
+/*  display: none;
+}*/
