@@ -217,6 +217,31 @@ ul.menu > li.logo-sticky {
       color: white;
      }
 
+/*Band res*/
+
+.band.band--res{
+  padding: 20px 16px;
+}
+
+.band.band--res .thumb{
+  max-height: initial;
+}
+
+.band.band--res .thumb > div {
+  padding: 12px;
+  background-color: rgba(0,0,0,.2);
+}
+
+.band.band--res .thumb > div img{
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  transition: all 0.32s;
+}
+.band.band--res .thumb > div img:hover {
+  transform: scale(1.1);
+}
+
 /* Grid products*/
 
 .widget-products .products-list {
