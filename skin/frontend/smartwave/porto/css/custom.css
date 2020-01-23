@@ -97,7 +97,7 @@ body .cart .cart-collaterals h2 {
   display: none;
 }
 
-//forms
+/**/
 body .form-list .field {
   margin: 0 .5em;
 }
@@ -415,12 +415,6 @@ ul.menu > li.logo-sticky {
     height: auto;
   }
 
-
-.main-nav .menu > li .nav-sublist-dropdown ul li{
-
-}
-.main-nav .menu-wrapper {
-}
 /*Fix for mobile issues*/
 .checkout-onepage-index .col-main.col-sm-9 {
     position: relative;
